@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary);
+    font-family: 'Cairo', sans-serif;
+}
+:root{
+    --primary : #f8f4fc;
+    --h1titles : #141a3a;
+    --p : #43465e;
+    --buttons : #445092; 
+}
+.home {
+    text-align: center;
+    margin-top: 250px;
+}
+.home h1{
+    font-size: 80px;
+    color: var(--h1titles);
+}
+.home p{
+    font-size: 30px;
+    color: var(--p);
+    margin-top: -50px;
+}
+.home button {
+    background-color: var(--buttons);
+    padding: 15px 20px;
+    border: none;
+    border-radius: 30px;
+    transition: 0.5s;
+    cursor: pointer;
+    color: white;
+}
+.home button:hover {
+    transform: scale(1.15);
+}
+.Maincontainer {
+    width: 1000px;
+    margin-left: 500px;
+    margin-top: 0px;
+    text-align: center;
+
+}
+h2{
+    font-size: 20px;
+}
+.answerscontainer{
+    display: inline-flex;
+}
+.answerscontainer p{
+    margin-right: 50px;
+    border: 1px solid black;
+    padding: 15px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+.triviacontainer h2{
+    color: var(--h1titles);
+}
+.triviacontainer span {
+    color: var(--p);
+    margin-right: 50px;
+}
+.checkbutton{
+    float: right;
+    background-color: var(--buttons);
+    padding: 20px 70px;
+    border: none;
+    color: white;
+    margin-bottom: 50px;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+.refreshbutton{
+    float: right;
+    background-color: var(--buttons);
+    padding: 20px 50px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: 0.5s;
+    margin-top: 100px;
+    position: absolute;
+    right: 10%;
+}
+.refreshbutton:hover{
+    transform: scale(1.1);
+}
+.checkbutton:hover{
+    transform: scale(1.1);
+}
+.score{
+    margin-left: 100px;
+    font-size: 20px;
+    color: var(--h1titles);
+    font-weight: 800;
+}
+.diffspan{
+    margin-left: -50px;
+}
